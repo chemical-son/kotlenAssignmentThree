@@ -1,4 +1,7 @@
 package secund
 
-open class Boat: Vehicle() {
+abstract class Boat: Vehicle() {
+    override fun printMe() {
+        print("i'm a Boat")
+    }
 }
